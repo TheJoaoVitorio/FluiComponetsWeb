@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #ffffff;
+    color: #1f1f1f;
+    font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Google typography helpers */
+.font-google {
+  font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* Gemini Blue Gradient text */
+.gemini-blue-gradient {
+  background: linear-gradient(90deg, #1a73e8 0%, #4285f4 50%, #669df6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Gemini Multi-color Gradient text */
+.gemini-aura-gradient {
+  background: linear-gradient(90deg, #1a73e8 0%, #8ab4f8 40%, #c58af9 70%, #f28b82 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Card hover and borders matching Gemini subscriptions */
+.google-card {
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 28px;
+  transition: all 0.2s cubic-bezier(0.2, 0, 0, 1);
+}
+
+.google-card:hover {
+  border-color: #c4c7c5;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Google-style segmented pill toggle */
+.google-pill-container {
+  background: #f0f4f9;
+  border-radius: 9999px;
+  padding: 4px;
+  display: inline-flex;
+}
+
+/* Antigravity constellation canvas / pattern */
+.antigravity-bg {
+  background-color: #ffffff;
+  background-image: radial-gradient(#d3e3fd 1px, transparent 1px);
+  background-size: 32px 32px;
+}
