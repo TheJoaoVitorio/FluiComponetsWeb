@@ -39,7 +39,7 @@ export function GoogleFooter() {
               </h4>
               <ul className="space-y-2 text-[#444746]">
                 <li><a href="#installation" className="hover:text-[#1a73e8] transition-colors">Guia de Instalação (.DPK)</a></li>
-                <li><a href="#playground" className="hover:text-[#1a73e8] transition-colors">Playground VCL</a></li>
+                <li><a href="#playground" className="hover:text-[#1a73e8] transition-colors">Componentes em Ação</a></li>
                 <li><a href="#comparison" className="hover:text-[#1a73e8] transition-colors">VCL Tradicional vs Flui4D</a></li>
                 <li><a href="https://github.com/useflui" target="_blank" rel="noopener noreferrer" className="hover:text-[#1a73e8] transition-colors">Repositórios no GitHub</a></li>
                 <li><span className="text-[#747775]">Licença MIT (Gratuito)</span></li>
@@ -59,7 +59,7 @@ export function GoogleFooter() {
         {/* Bottom Bar (Exact match to Screenshot 2: Google on left, links on right) */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#5f6368]">
           <div className="flex items-center gap-3">
-            <img src="/assets/FLUI-logo.png" alt="Flui Logo" className="h-5 w-auto object-contain" />
+            <img src="/assets/FLUI-logo.png" alt="Flui Logo" className="h-6 w-auto object-contain" />
             <span className="font-semibold text-[#1f1f1f]">Flui Components</span>
             <span className="text-[#dadce0]">|</span>
             <span>Delphi VCL Community</span>

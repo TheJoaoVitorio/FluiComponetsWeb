@@ -96,7 +96,9 @@ export function ShowcaseCarousel() {
                   <img
                     src={item.image}
                     alt={item.title}
-                    className="w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-300"
+                    className={`w-full h-full object-contain transition-transform duration-300 group-hover:scale-105 ${
+                      item.id === 'brand' ? 'p-6 max-h-36' : 'p-2'
+                    }`}
                   />
                 </div>
 

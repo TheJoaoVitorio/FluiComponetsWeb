@@ -49,7 +49,7 @@ export function AntigravityHero({ selectedCategory, setSelectedCategory, onTrigg
           <img
             src="/assets/FLUI-logo.png"
             alt="Flui Logo Oficial"
-            className="h-14 sm:h-16 w-auto object-contain drop-shadow-sm"
+            className="h-16 sm:h-20 w-auto object-contain drop-shadow-sm transition-transform duration-300 hover:scale-105"
           />
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#f0f4f9] rounded-full text-xs font-semibold text-[#1f1f1f]">
             <span>Flui Components • Delphi VCL</span>

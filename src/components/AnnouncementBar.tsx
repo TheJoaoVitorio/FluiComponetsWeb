@@ -14,10 +14,10 @@ export function AnnouncementBar() {
             + NOVO
           </span>
           <span className="hidden sm:inline">
-            Flui 2.0 disponível com suporte nativo ao <strong>Delphi 12 Athens</strong>, GDI+ Anti-Aliasing e Fluent API.
+            Flui disponível com suporte nativo ao <strong>Delphi 12 Athens</strong>, GDI+ Anti-Aliasing e Fluent API.
           </span>
           <span className="sm:hidden font-medium">
-            Flui 2.0 para Delphi 12 Athens lançado!
+            Flui para Delphi 12 Athens lançado!
           </span>
           <a
             href="https://github.com/useflui"

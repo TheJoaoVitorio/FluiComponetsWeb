@@ -3,7 +3,7 @@ import { AnnouncementBar } from './components/AnnouncementBar';
 import { GoogleNavbar } from './components/GoogleNavbar';
 import { AntigravityHero } from './components/AntigravityHero';
 import { ShowcaseCarousel } from './components/ShowcaseCarousel';
-import { GeminiCardsSection } from './components/GeminiCardsSection';
+import { DelphiFragmentSection } from './components/DelphiFragmentSection';
 import { AntigravityIconArc } from './components/AntigravityIconArc';
 import { DeveloperEditorial } from './components/DeveloperEditorial';
 import { GooglePlayground } from './components/GooglePlayground';
@@ -70,10 +70,8 @@ export function App() {
           <ShowcaseCarousel />
         </div>
 
-        {/* 5. Gemini Subscriptions Cards Grid (Screenshot 1) */}
-        <GeminiCardsSection 
-          selectedCategory={selectedCategory}
-        />
+        {/* 5. Delphi Helmet Antigravity Particles Section */}
+        <DelphiFragmentSection />
 
         {/* 6. Antigravity Curved Icon Arc & Big Statement (Screenshot 3) */}
         <AntigravityIconArc />

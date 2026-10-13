@@ -20,7 +20,7 @@ export function GoogleNavbar({ activeSection, setActiveSection }: GoogleNavbarPr
             <img 
               src="/assets/FLUI-logo.png" 
               alt="Flui Logo" 
-              className="h-7 w-auto object-contain" 
+              className="h-8 w-auto object-contain transition-transform duration-200 group-hover:scale-105" 
             />
             <div className="flex items-center gap-1.5">
               <span className="text-[20px] font-bold text-[#1f1f1f] tracking-tight font-google">
@@ -74,7 +74,7 @@ export function GoogleNavbar({ activeSection, setActiveSection }: GoogleNavbarPr
                   : 'text-[#444746] hover:text-[#1f1f1f]'
               }`}
             >
-              <span>Playground VCL</span>
+              <span>Componentes em Ação</span>
               {activeSection === 'playground' && (
                 <span className="absolute bottom-0 left-0 right-0 h-[2.5px] bg-[#1a73e8] rounded-t-full" />
               )}
@@ -170,7 +170,7 @@ export function GoogleNavbar({ activeSection, setActiveSection }: GoogleNavbarPr
             onClick={() => setMobileMenuOpen(false)}
             className="block px-3 py-2 text-sm font-medium text-[#444746] hover:text-[#1a73e8] hover:bg-[#f0f4f9] rounded-xl"
           >
-            Playground VCL
+            Componentes em Ação
           </a>
           <a
             href="#comparison"
