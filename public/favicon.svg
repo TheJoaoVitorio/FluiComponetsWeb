@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="fluiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4285F4" />
+      <stop offset="40%" stop-color="#9333EA" />
+      <stop offset="80%" stop-color="#EC4899" />
+      <stop offset="100%" stop-color="#FF6F00" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#08090D" />
+  <rect x="2" y="2" width="60" height="60" rx="14" stroke="rgba(255,255,255,0.1)" stroke-width="1.5" />
+  <path d="M16 20 C16 16.686 18.686 14 22 14 H42 C45.314 14 48 16.686 48 20 C48 23.314 45.314 26 42 26 H24 C21.79 26 20 27.79 20 30 C20 32.21 21.79 34 24 34 H38 C41.314 34 44 36.686 44 40 C44 43.314 41.314 46 38 46 H22 C18.686 46 16 43.314 16 40 V20 Z" 
+        fill="url(#fluiGrad)" 
+        filter="url(#glow)" />
+  <circle cx="44" cy="20" r="3" fill="#67e8f9" />
+</svg>
